@@ -1,4 +1,7 @@
 ﻿h1 {
     color: red;
-    ::after: "From ScopedCssComponent"
 }
+
+    h1::after {
+        content: "From ScopedCssComponent"
+    }

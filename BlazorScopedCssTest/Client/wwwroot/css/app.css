@@ -10,8 +10,11 @@ a, .btn-link {
 
 h1{
     color: green;
-    ::after: "From app.css"
 }
+
+    h1::after {
+        content: "From app.css"
+    }
 
 .btn-primary {
     color: #fff;
